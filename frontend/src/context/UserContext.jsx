@@ -2,7 +2,7 @@ import React, { createContext, useEffect, useState}from 'react'
 export const userDataContext = createContext();
 import axios from 'axios';
 function UserContext({children}) {
-    const serverURL = "http://localhost:8000";
+    const serverURL = "https://virtualassistant-backend-ezos.onrender.com";
     const [userData, setUserData] = useState(null);
     const [frontend, setFrontend] = useState(null)
     const [backend, setBackend] = useState(null)
