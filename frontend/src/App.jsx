@@ -5,7 +5,7 @@ import SignIn from './pages/SignIn'
 import Customize from './pages/Customize'
 import Home from './pages/Home'
 import Customize2 from './pages/Customize2'
-import { userDataContext } from './context/userContext'
+import { userDataContext } from './context/UserContext'
 import ProtectedRoute from './components/ProtectedRoute';
 import PublicRoute from './components/PublicRoute';
 
