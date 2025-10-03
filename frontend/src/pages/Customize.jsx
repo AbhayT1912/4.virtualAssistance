@@ -1,5 +1,5 @@
 import { useRef, useContext } from 'react'
-import { userDataContext } from '../context/userContext'
+import { userDataContext } from '../context/UserContext'
 import Card from '../components/card'
 import image1 from '../assets/image1.png'
 import image2 from '../assets/image2.jpg'
